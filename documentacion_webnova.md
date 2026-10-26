@@ -118,7 +118,7 @@ Creamos `footer.html`:
 git add footer.html
 git commit -m "C4: Añadido pie de página"
 ```
-![Salida de git branch con las tres ramas creadas](webnova/imagenes/cap3.png)
+![Salida de git branch con las tres ramas creadas](imagenes/cap3.png)
 
 ---
 
@@ -186,7 +186,7 @@ git commit -a -m "C5: Integrados cabecera, contenido y pie en index.html"
 git branch -d cabecera contenido pie
 ```
 
-![Salida de git branch con las tres ramas creadas](webnova/imagenes/cap8.png)
+![Salida de git branch con las tres ramas creadas](imagenes/cap8.png)
 ---
 
 ## 4. Provocar un conflicto
