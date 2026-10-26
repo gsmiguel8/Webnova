@@ -52,7 +52,7 @@ El último comando  marca `main` con un asterisco
   pie
 ```
 
-![Salida de git branch con las tres ramas creadas](webnova/imagenes/branchs.png)
+![Salida de git branch con las tres ramas creadas](imagenes/branchs.png)
 
 ### Rama `cabecera`
 
@@ -76,7 +76,7 @@ git add header.html
 git commit -m "C2: Añadido encabezado con navegación"
 ```
 
-![Salida de git branch con las tres ramas creadas](webnova/imagenes/2commit.png)
+![Salida de git branch con las tres ramas creadas](imagenes/2commit.png)
 
 ### Rama `contenido`
 
@@ -98,7 +98,7 @@ git add content.html
 git commit -m "C3: Creado contenido principal"
 ```
 
-![Salida de git branch con las tres ramas creadas](webnova/imagenes/2commit.png)
+![Salida de git branch con las tres ramas creadas](imagenes/2commit.png)
 
 ### Rama `pie`
 
@@ -133,7 +133,7 @@ git merge contenido
 git merge pie
 ```
 
-![Merge de cabecera (fast-forward) contenido y pie](webnova/imagenes/cap4.png)
+![Merge de cabecera (fast-forward) contenido y pie](imagenes/cap4.png)
 
 
 
@@ -176,7 +176,7 @@ Copiamos el contenido de los tres archivos dentro de `index.html`:
 ```bash
 git commit -a -m "C5: Integrados cabecera, contenido y pie en index.html"
 ```
-![Salida de git branch con las tres ramas creadas](webnova/imagenes/cap6.png)
+![Salida de git branch con las tres ramas creadas](imagenes/cap6.png)
 
 > El `-a` solo mete archivos que Git ya conoce. Como `index.html` está desde C1, no hace falta el `git add`.
 
@@ -241,7 +241,7 @@ Automatic merge failed; fix conflicts and then commit the result.
 
 
 
-![commit 6, 7 y Mensaje de CONFLICT en la terminal](webnova/imagenes/cap7.png)
+![commit 6, 7 y Mensaje de CONFLICT en la terminal](imagenes/cap7.png)
 
 Las dos ramas cambiaron la misma línea, y Git no sabe con cuál quedarse. Con `git status` puedes ver qué archivos están en conflicto.
 
@@ -280,7 +280,7 @@ git commit -m "C8: Conflicto resuelto entre main y rediseño en el H1"
 git log --oneline --graph --all
 ```
 
-![Conflicto resuelto, commit C8 hecho y grafo historial](webnova/imagenes/cap9.png)
+![Conflicto resuelto, commit C8 hecho y grafo historial](imagenes/cap9.png)
 
 La rama `rediseño` sigue ahí porque no la hemos borrado. Si quisieras limpiarla: `git branch -d rediseño`.
 
